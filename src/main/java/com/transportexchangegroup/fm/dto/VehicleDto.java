@@ -1,4 +1,4 @@
-package com.transportexchangegroup.fm.api.dto;
+package com.transportexchangegroup.fm.dto;
 
 import lombok.Data;
 

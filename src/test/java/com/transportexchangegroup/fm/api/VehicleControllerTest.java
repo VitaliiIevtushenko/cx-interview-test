@@ -21,7 +21,7 @@ public class VehicleControllerTest extends BaseControllerTest {
 
     @Test
     @DatabaseSetup("classpath:datasets/vehicles/VehicleControllerTest.xml")
-    public void findVehicles() throws Exception {
+    public void findNotDeletedVehiclesWithOrdersThatTheyDeliveredOnSpecificDate() throws Exception {
         mvc.perform(get(Api.VEHICLES)
                 .param("date", "2019-01-01T00:00:00Z")
                 .contentType(MediaType.APPLICATION_JSON))
