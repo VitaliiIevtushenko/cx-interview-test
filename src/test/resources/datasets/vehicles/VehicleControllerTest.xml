@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <vehicles vehicle_id="1" name="AE 7809 CH" deleted="false"/>
+    <vehicles vehicle_id="2" name="AE 5593 AA" deleted="false"/>
+    <vehicles vehicle_id="3" name="AE 8899 TT" deleted="false"/>
+    <vehicles vehicle_id="4" name="AE 1199 EE" deleted="true"/>
+
+    <orders order_id="1" vehicle_id="1" date="2019-01-01 00:00:00"/>
+    <orders order_id="2" vehicle_id="2" date="2019-01-01 00:00:00"/>
+    <orders order_id="3" vehicle_id="4" date="2019-01-01 00:00:00"/>
+    <orders order_id="4" vehicle_id="1" date="2019-01-01 23:51:17"/>
+    <orders order_id="5" vehicle_id="1" date="2019-01-01 13:13:13"/>
+    <orders order_id="6" vehicle_id="1" date="2019-01-02 00:00:00"/>
+    <orders order_id="7" vehicle_id="1" date="2019-01-02 13:12:00"/>
+</dataset>
